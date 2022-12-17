@@ -14,6 +14,8 @@ namespace WithDI
         public User(string userName, IConsoleNotification notificationService)
         {
             UserName = userName;
+            
+            // LOOSELY COUPLED till en Interface! :)
             _notificationService = notificationService;
         }
 

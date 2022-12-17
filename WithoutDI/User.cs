@@ -14,6 +14,8 @@ namespace WithoutDI
         public User(string userName)
         {
             UserName = userName;
+
+            // Här är vi hård kopplad till en concretion! BAD!
             _notificationService= new ConsoleNotification();
         }
 
