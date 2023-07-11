@@ -25,5 +25,4 @@ namespace WithDI
             _notificationService.NotifiyUserNameChanged(this);
         }
     }
-
 }
