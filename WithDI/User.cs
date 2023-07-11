@@ -8,10 +8,10 @@ namespace WithDI
 {
     public class User
     {
-        private IConsoleNotification _notificationService;
+        private INotificationService _notificationService;
         public string UserName { get; set; }
 
-        public User(string userName, IConsoleNotification notificationService)
+        public User(string userName, INotificationService notificationService)
         {
             UserName = userName;
             

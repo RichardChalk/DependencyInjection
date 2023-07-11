@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WithDI
 {
-    public interface IConsoleNotification
+    public interface INotificationService
     {
         void NotifiyUserNameChanged(User user);
     }
